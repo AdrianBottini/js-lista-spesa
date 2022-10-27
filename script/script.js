@@ -3,7 +3,7 @@ let item
 do {
 	item = prompt('inserisci qualcosa da comprre');
 	arrGroceryList.push(item);
-} while (item != ''  && arrGroceryList.length < 5)
+} while (item != ''  && arrGroceryList.length < 10)
 if (!arrGroceryList[arrGroceryList.length - 1]) {
 	arrGroceryList.pop();
 }
